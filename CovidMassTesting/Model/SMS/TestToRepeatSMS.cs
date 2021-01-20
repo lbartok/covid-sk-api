@@ -20,7 +20,7 @@ namespace CovidMassTesting.Model.SMS
         /// <returns></returns>
         public override string GetText()
         {
-            return $"Dobrý deň {Name}, vznikla technická chyba pri Vašom teste a test je potrebné zopakovať. Dostavte sa na odberné miesto pre opakovanie testu ešte raz. Ďakujeme";
+            return $"Dobrý deň {Name}, vyskytol sa technický problém a Váš test bude potrebné zopakovať. Dostavte sa prosím na opätovný odber vzorky. Ďakujeme.";
         }
     }
 }

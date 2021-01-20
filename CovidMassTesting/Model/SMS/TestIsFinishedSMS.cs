@@ -22,7 +22,7 @@ namespace CovidMassTesting.Model.SMS
         /// <returns></returns>
         public override string GetText()
         {
-            return $"Dobrý deň {Name}. Váš test je dokončený. Dostavte sa na výdaj certifikátov.";
+            return $"Dobrý deň {Name}. Váš test je dokončený. Dostavte sa prosím na výdaj certifikátov.";
         }
     }
 }
